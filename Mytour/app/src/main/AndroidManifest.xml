@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--메인 엑티비티 외에 다른 액티비티를 사용할때에는 이곳에 추가시켜줘야 한다. -->
         <activity android:name=".SubActivity"/>
+        <activity android:name=".SubActivity2"/>
+        <activity android:name=".SubActivity3"/>
     </application>
+    <!--인터넷에 연결하는 기능을 사용하기 위해서 허가 코드를 입력한다. -->
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 </manifest>

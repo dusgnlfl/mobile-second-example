@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="63빌딩 여행"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="60px"
+        android:layout_marginBottom="70px"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50px">
+        <Button
+            android:id="@+id/map1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="63빌딩위치"
+            android:background="@drawable/round_box"
+            android:textSize="60px"
+            android:onClick="mOnClick"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="63빌딩의 위치를 보여줍니다."
+            android:textSize="40px"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50px">
+        <Button
+            android:id="@+id/info1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="63빌딩 웹페이지"
+            android:background="@drawable/round_box"
+            android:textSize="60px"
+            android:onClick="mOnClick"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="63빌딩의 정보들을 보여줍니다."
+            android:textSize="40px"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/mainpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="이전"
+        android:background="@drawable/round_box"
+        android:textSize="60px"
+        android:onClick="mOnClick"/>
+</LinearLayout>

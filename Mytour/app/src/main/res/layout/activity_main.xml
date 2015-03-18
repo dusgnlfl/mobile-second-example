@@ -28,6 +28,28 @@
             android:drawableLeft="@drawable/nam"
             android:text="남산"
             android:textSize="100px"
+            android:layout_marginBottom="50px"
+            android:onClick="mOnClick"/>
+        <Button
+            android:id="@+id/kyung"
+            android:layout_width="700px"
+            android:layout_height="200px"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/round_box"
+            android:drawableLeft="@drawable/kung"
+            android:text="경복궁"
+            android:textSize="100px"
+            android:layout_marginBottom="50px"
+            android:onClick="mOnClick"/>
+        <Button
+            android:id="@+id/building"
+            android:layout_width="700px"
+            android:layout_height="200px"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/round_box"
+            android:drawableLeft="@drawable/building"
+            android:text="63빌딩"
+            android:textSize="100px"
             android:onClick="mOnClick"/>
         </LinearLayout>
 </LinearLayout>
